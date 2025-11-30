@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html style="height: 100vh;">
+    <head>
+        <title>Recovery</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/favicon-32x32.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    </head>
+    <body style="margin: 0; min-height: 100vh;">
+        <div class="column">
+            <h1 style="text-align: center; margin-bottom: 0;">A Year of Recovery</h1>
+            <div style="text-align: center;">
+                <p style="padding: 0; margin-top: 0;">November 29, 2025</p>
+                <p style="padding-top: 0; margin-top: 0;">Mara Solen</p>
+            </div>
+            <p>
+                I had to spend a week in the hospital (just over) one year ago for a serious medical operation. It was brutal in many ways.
+                I woke up in the worst pain I hope I will ever feel, so bad that all my vision was all orange when I opened my eyes. The
+                initial pain medication helped a lot, but I was still in too much pain to sleep much during that entire week, even on large 
+                doses of pain medication and sleeping pills. Even after I left the hospital, I often struggled to sleep because of pain,
+                and would have to wake up halfway through the night to take more pain meds. I remember in mid December, 41 days after the 
+                surgery, I had my first brief moment without pain. Constant pain is mentally and physically exhausting in ways I had never 
+                experienced before. Thankfully I got through it with a lot of help from my friends. I had people visit me every day in the 
+                hospital and as frequently as possible once I went home. Especially when I couldn't walk far or at all, these visits helped 
+                so much. People also helped me in other ways, like bringing me food, since I couldn't stand for too long to cook for myself.
+                My only regret is that I stopped accepting help too soon. I wish now that I had let people keep helping me. If you ever go 
+                through anything like this, my biggest piece of advice is to plan for more time off than you think you need, and don't be
+                afraid to ask for help with things, even when you don't necessarily "need" it.
+            </p>
+            <div class="row">
+                <div><img src="images/hospital.jpg" style="border-radius: 1em;"><p>I had a mediocre view but it was nice to sit by the window once I was able to stand and walk. (I couldn't shower so my hair got super greasy)</p></div>
+                <div><img src="images/wakeup.jpg" style="border-radius: 1em;"><p>I was under anaesthesia for about 5 hours, then spent 4 hours in intensive care. This pic is from when I got to the hospital room I spent the week in.</p></div>
+                <div><img src="images/checkup.jpg" style="border-radius: 1em;"><p>Just had my one year checkup. The doctor remembered me and recognized that I had cut my hair! All good, no more checkups needed!</p></div>
+            </div>
+            <p>
+                Since I've been wearing my smart watch this entire time, I have access to a lot of health metrics. It's interesting for me
+                to look at these metrics and think about how they relate to my internal feelings and experience with recovery. So, to 
+                celebrate one year of recovery, I decided to use these metrics to reflect. The chart belowis meant to resemble a quilt,
+                because I'm stitching together all these metrics, and because I spent a lot of time in bed while recovering. Each square
+                of the quilt is one metric during one time frame. I chose the time frames based on how I split up this year when I talk to
+                people about it, so they aren't equal numbers of days. The metrics at the top of the column are the ones I feel most 
+                positively about during that time frame, and the ones at the bottom are the ones I feel most negatively about. The different
+                colours represent the different metrics. Green is the number of steps taken, red is the number of intensity minutes, purple
+                is my resting heart ratem blue is my sleep score, pink is my weight, and orange is my stress level. Some of these are
+                aggregated and some aren't, just based on what represents how I feel about them. Some of the squares have notes in them if
+                I thought there was something interesting to say, like some context, a milestone, or a frustration.
+            </p>
+        </div>
+
+        <div id="visualization-container" class="visualization-container" first-render="true">
+            <svg id="visualization" class="visualization"></svg>
+        </div>
+
+        <div class="column">
+            <p>
+                My biggest takeaway is how many ups and downs there are to recovery. Some things get better quickly, some things take ages 
+                to come back. Some things that got better quickly get worse again, and some things never get better at all.
+            </p>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js "></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
